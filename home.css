@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navi{
+    color: rgb(71, 69, 69);
+    font-weight:500;
+    font-size: 18px;
+}
+.navi2{
+    background: orange;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+.pera h1{
+    margin-top: 70px;
+    font-size:75px;
+    font-weight: bold;
+
+
+}
+.pera p{
+    font-size: 21px;
+}
+.imu{
+    width:100%;
+    margin-top: 220px;
+    
+}
+.inputtext{
+    padding: 27px 15px;
+    border: none;
+    margin-top: 50px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+    
+
+}
+.inputtext1{
+    border: none;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+    padding: 27px 15px;
+}
+.cover{
+    background: linear-gradient(white, rgb(240, 214, 214));
+    position:sticky;
+    padding-bottom: 40px;
+    
+}
+.sign{
+    border-radius: 50%;
+    margin-top: 60px;
+}
+.payment{
+    width: 1100px;
+    padding: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    position:sticky;
+    margin-top: -100px;
+    background: white;
+    border-radius: 20px;
+
+}
+.prothom{
+    width: 320px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+.secent{
+    width:120px;
+    margin-left: 0px;
+
+}
+.payment h3{
+    font-size: 70px;
+    
+    
+}
+.payment p{
+    font-size: 21px;
+    color: rgb(97, 100, 102);
+}
+.grow{
+    width: 1100px;
+    padding: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    position:sticky;
+    background: linear-gradient(rgb(252, 248, 248), rgb(230, 224, 224));
+    border-radius: 20px;
+    top: -201px;
+}
+
+.grow .prothom{
+    padding-left: 130px;
+    padding-right: 0px;
+}
+.growpic{
+    width:100%;
+}
+ 
+.grow .secent{
+    width:120px;
+    margin-left: 0px;
+}
+.grow h3{
+    font-size: 60px;
+}
+.grow  p{
+    font-size:20px;
+}
+.pay2{
+    position:relative ;
+}
+.excal{
+    width: 1000px;
+    margin-left: 100px;
+    background: linear-gradient(rgb(179, 147, 147), rgb(248, 88, 88));
+    position: absolute;
+    padding: 50px;
+    border-radius: 30px;
+}
+.imbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x:auto;
+}
+.excal h2{
+    width: 300px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.imbox img{
+    margin: 20px;
+}

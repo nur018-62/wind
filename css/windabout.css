@@ -1,0 +1,243 @@
+*{
+    padding: opx;
+    margin: 0px;
+}
+header{
+    padding: 22px 80px;
+
+   
+
+}
+ nav ul{
+    float: right;
+    
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin-right: 27px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px 8px;
+    transition: 1s;
+}
+nav ul li:hover{
+    background-color: rgb(200, 218, 231);
+    border-radius: 7px;
+}
+nav ul li:last-child{
+    margin-right: 0px;
+    margin-left: -15px;
+}
+nav ul li:first-child{
+    color: rgb(125, 3, 240);
+}
+.getin,.getin:hover{
+background:orange;
+padding: 15px 20px;
+border-radius: 10px;
+
+}
+ span{
+    padding: 1px 5px;
+    background-color: blueviolet;
+    border-radius: 100%;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+}
+.sub{
+    margin-top: 80px;
+    padding-bottom:60px;
+    background: linear-radient(white, rgb(226, 226, 219), rgb(185, 191, 243));
+    overflow: hidden;
+    padding:0px  80px;
+    position: relative;
+    padding-bottom: 170px;
+
+
+}
+.sub2{
+width: 600px;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+float: left;
+
+}
+.sub2 h2{
+font-size: 90px;
+font-weight: bold;
+height: 300px;
+line-height: 90px;
+}
+.sub2 h3{
+    color: rgb(122, 9, 228);
+    
+
+}
+.sub2 p{
+    margin-top: 20px;
+    font-size:23px;
+
+}
+.ima{
+    margin: 0px;
+    padding:0px;
+    width: 450px;
+    float: right;
+}
+.ima img{
+    margin-right: 300px;
+    width: 500px;
+    float: left;
+    
+    
+    
+    
+}
+.mission{
+    width: 1000px;
+    margin-left: 100px;
+    padding: 50px 30px;
+    position: relative;
+    top:-170px;
+    
+    background-color: rgb(231, 245, 245);
+    border-radius: 30px;
+    overflow: hidden;
+    
+    
+    
+}
+.submission{
+    padding:60px 40px;
+
+}
+.submission p{
+    color: rgb(122, 9, 228);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 90px;
+}
+.submission h4{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 90px;
+}
+.submission h5{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+}
+.value{
+    padding: 22px 80px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    
+    
+    
+}
+.value h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ourvalue{
+    padding: 35px 30px;
+    background-color:rgb(231, 245, 245);
+    width:290px;
+    float: right;
+    border-radius: 15px;
+    display:block;
+    margin-right:10px;
+    margin-bottom:20px;
+    height: 390px;
+
+}
+.ourvalue:last-child{
+    margin-right:20 px;
+}
+.ourvalue h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.ourvalue p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color:rgb(88, 85, 85);
+    
+}
+.joint{
+    width: 700px;
+    text-align: center;
+    background: linear-gradient(rgb(228, 152, 200),rgb(230, 214, 224));
+    padding:135px 188px;
+    border-radius: 20px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+
+
+}
+.joint h1{
+    margin-bottom: 50px;
+}
+.joint p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.joint input{
+    padding: 25px 30px;
+    border: none;
+}
+
+
+input.last{
+    background: rgb(235, 201, 8);
+    color: rgb(12, 12, 12);
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 22px 28px;
+}
+.fotter{
+    padding: 30px 90px;
+    margin-top: 40px;
+}
+.fotter li{
+    list-style-type: none;
+    padding: 15px 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif
+}
+.subfun{
+    display: inline-block;
+    width: 350px;
+    background-image: url(image/bg.png);
+    background-position: top;
+background-size: cover;
+}
+button{
+    padding: 15px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: fixed;
+    background: rgb(19, 129, 233);
+    right: 50px;
+    bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    border: none;
+}
